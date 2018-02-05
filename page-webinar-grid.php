@@ -25,6 +25,15 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() ); ?>
 		<div id="content-area" class="clearfix">
 			<div id="left-area">
 
+			<div class="savequeries-container">
+				<?php
+					// if ( current_user_can( 'manage_options' ) ) {
+					// 	global $wpdb;
+					// 	print_r( $wpdb->queries );
+					// } 
+				?>
+			</div>
+
 <?php endif; ?>
 
 <?php
